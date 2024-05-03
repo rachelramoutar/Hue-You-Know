@@ -1,0 +1,89 @@
+body{ 
+    background:linear-gradient(to bottom, rgb(4, 91, 91), #255, rgb(53, 201, 201));
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8 {
+    border: 2px;
+    border-color: black;
+    color:black;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px; 
+    margin-top: 70px;
+}
+
+.theCards{
+    text-align: center;
+    display: flexbox;
+}
+
+#bubble1{
+    height: 25px;
+    width: 25px;
+    background-color: #4e127f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#bubble2{
+    height: 25px;
+    width: 25px;
+    background-color: #4e127f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#bubble3{
+    height: 25px;
+    width: 25px;
+    background-color: #4e127f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#bubble4{
+    height: 25px;
+    width: 25px;
+    background-color: #4e127f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#bubble5{
+    height: 25px;
+    width: 25px;
+    background-color: #4e127f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#bubble6{
+    height: 25px;
+    width: 25px;
+    background-color: #4e127f;
+    border-radius: 50%;
+    display: inline-block;
+}
+#bubble7{
+    height: 25px;
+    width: 25px;
+    background-color: #4e127f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#bubble8{
+    height: 25px;
+    width: 25px;
+    background-color: #4e127f;
+    border-radius: 50%;
+    display: inline-block;
+}
