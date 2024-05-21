@@ -9,13 +9,19 @@
 
 ## Screenshots: 
 
-1. ![Screenshot of the Hue You Know Title](./assets/Screenshots/Title.png)
-2. ![Screenshot of the Hue You Know Level 1](./assets/Screenshots/Start.png)
-3. ![Screenshot of a Hue You Know First Card Selection example](./assets/Screenshots/firstCard.png)
-4. ![Screenshot of a Hue You Know Wrong Match example](./assets/Screenshots/Wrong.png)
-5. ![Screenshot of a Hue You Know Correct Match example](./assets/Screenshots/Match.png)
-6. ![Screenshot of a Hue You Know Second Attempt example](./assets/Screenshots/secondAttempt.png)
-7. ![Screenshot of the Hue You Know Completed Game example](./assets/Screenshots/Completed.png)
+1. ![Screenshot of the Hue You Know Title](./assets/Screenshots/Title.png) Hue You Know Title 
+
+2. ![Screenshot of the Hue You Know Level 1](./assets/Screenshots/Start.png) Hue You Know Level 1 Start Screen 
+
+3. ![Screenshot of a Hue You Know First Card Selection example](./assets/Screenshots/firstCard.png) Hue You Know First Card Selection Example
+
+4. ![Screenshot of a Hue You Know Wrong Match example](./assets/Screenshots/Wrong.png) Hue You Know Wrong Match Example 
+
+5. ![Screenshot of a Hue You Know Correct Match example](./assets/Screenshots/Match.png) Hue You Know Correct Match Example 
+
+6. ![Screenshot of a Hue You Know Second Attempt example](./assets/Screenshots/secondAttempt.png) Hue You Know Second Attempt Example 
+
+7. ![Screenshot of the Hue You Know Completed Game example](./assets/Screenshots/Completed.png) Hue You Know Completed Game Example 
 
 ### Technologies Used:
  * Javascript, also known as ES6 or ECMAScript 2015
