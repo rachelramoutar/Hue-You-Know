@@ -65,13 +65,16 @@ They are still selectable, you will just have to use a little more brain power!
 * Adding Different Levels 
 
     - Hue You Know - Level 3 Example (Blue) 
+
     ![Screenshot of Hue You Know Level 3 - Blue](./assets/Screenshots/Blues.png)
 
     - Hue You Know - Level 4 Example (Red)
-    ![Screenshot of Hue You Know Level 3 - Red](./assets/Screenshots/Reds.png.png)
+
+    ![Screenshot of Hue You Know Level 3 - Red](./assets/Screenshots/Reds.png)
 
     - Hue You Know - Level 5 Example (Grayscale)
-    ![Screenshot of Hue You Know Level 3 - Grayscale](./assets/Screenshots/GrayScale.png.png)
+    
+    ![Screenshot of Hue You Know Level 3 - Grayscale](./assets/Screenshots/GrayScale.png)
 
 * Adding a Splash Screen 
 
