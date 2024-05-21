@@ -1,103 +1,154 @@
-body{ 
-    background:linear-gradient(to bottom, rgb(4, 91, 91), #255, rgb(53, 201, 201));
+body {
+    background: #000000;
+    background-size: 100%;
+    max-width: 100%;
+    min-width: 100vh;
+    min-height: 100vh;
+    max-height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-h1{
-    color: black;
+#mainHeader {
+    margin-top: 25px;
     text-align: center;
-    font-size: 50px;
+
 }
 
-#card1, #card2, #card3{
+/* .hoverEffect {
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px)
+    }
+
+    65% {
+        transform: translate(0, 15px)
+    }
+
+    to {
+        transform: translate(0, 0px)
+    }
+} */
+
+#level {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+.rows {
+    text-align: center;
+}
+
+.theCards {
+    display: inline-block;
+    height: 150px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px 3px 3px 3px;
+    /* position: relative; 
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out; */
+    cursor: pointer;
+}
+
+.theCards:hover {
+    box-shadow: inset 0px 0px 0px 1px white;
+    box-sizing: content-box;
+}
+
+
+.aerospaceOrange{
+    background-color: #FF4F00; 
+}
+
+.africanViolet{
+    background-color: #9D73A5;
+}
+
+.fireEngineRed{
+    background-color: #CE2029;
+}
+
+/* .amethyst{
+    background-color: #9966CC;
+} */
+
+.gold{
+    background-color: #FFD700;
+}
+
+.azureBlue{
+    background-color: #007fff;
+}
+
+.britishRacingGreen{
+    background-color: #004225;
+}
+
+.blue{
+    background-color: #0000FF;
+}
+
+.color-hidden {
+    background-image: url("./assets/Background/Background.png"); 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+
+#totalScore,
+#totalLives {
+    font-weight: bold;
+    color: white;
+}
+
+
+#Score {
+    text-align: left;
+    margin: 5px 10px 5px 5px;
+    color: white;
+}
+
+#Lives {
+/* float: right; */
     margin: 5px;
+    color: white;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .card1-back, .card2-back, .card3-back{
     height: 250px;
     width: 175px;
     border: 2px solid white;
     border-radius: 3%;
-    background-color: black;
-    color: rgb(104, 99, 99);
+    background: linear-gradient(to bottom, rgb(7, 3, 127), rgb(226, 152, 5), rgb(206, 94, 3));
+    color: white;
     display: inline-block;
+    backface-visibility: hidden;
+} */
 
-}
-
-#card4, #card5, #card6{
-    margin: 5px;
+/* .card4-back, .card5-back, .card6-back{
     height: 250px; 
     width: 175px; 
     border: 2px solid white;
     border-radius: 3%;
-    background-color: black;
-    color: rgb(75, 71, 71);
-    display: inline-block;
-
+    background: linear-gradient(to bottom, rgb(7, 3, 127), rgb(226, 152, 5), rgb(206, 94, 3));
+    color: white;
+    display: inline-block
+    backface-visibility: hidden;
 } 
-
-.theCards{
-    text-align: center;
-    display: flexbox;
-
-}
-
-#bubble1{
-    height: 25px;
-    width: 25px;
-    background-color: #4e127f;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-#bubble2{
-    height: 25px;
-    width: 25px;
-    background-color: #4e127f;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-#bubble3{
-    height: 25px;
-    width: 25px;
-    background-color: #4e127f;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-#bubble4{
-    height: 25px;
-    width: 25px;
-    background-color: #4e127f;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-#bubble5{
-    height: 25px;
-    width: 25px;
-    background-color: #4e127f;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-#bubble6{
-    height: 25px;
-    width: 25px;
-    background-color: #4e127f;
-    border-radius: 50%;
-    display: inline-block;
-}
-#bubble7{
-    height: 25px;
-    width: 25px;
-    background-color: #4e127f;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-#bubble8{
-    height: 25px;
-    width: 25px;
-    background-color: #4e127f;
-    border-radius: 50%;
-    display: inline-block;
-}
-
+ */

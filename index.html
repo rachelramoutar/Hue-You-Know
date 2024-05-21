@@ -11,30 +11,50 @@
 
 <body>
     <main>
-        <h1>🅗🅤🅔 🅨🅞🅤 🅚🅝🅞🅦</h1>
-        <div class="theCards">
-            <div id="card1">🅗🅨🅚</div>
-            <div id="card2">🅗🅨🅚</div>
-            <div id="card3">🅗🅨🅚</div>
-            <br>
-            <div id="card4">🅗🅨🅚</div>
-            <div id="card5">🅗🅨🅚</div>
-            <div id="card6">🅗🅨🅚</div>
+        <div id="mainHeader" class="hoverEffect">
+            <div id="hue">
+                <img src="assets/Title Font/Asset 2.png" width="50px" height="50px" alt="H" /><img
+                    src="assets/Title Font/Asset 3.png" width="60px" height="60px" alt="U" /><img
+                    src="assets/Title Font/Asset 4.png" width="50px" height="50px" alt="E">
+            </div>
+            <div id="you">
+                <img src="assets/Title Font/Asset 5.png" width="50px" height="50px" alt="Y"> <img
+                    src="assets/Title Font/Asset 6.png" width="50px" height="50px" alt="O"><img
+                    src="assets/Title Font/Asset 3.png" width="50px" height="50px" alt="U">
+            </div>
+            <div id="know">
+                <img src="assets/Title Font/Asset 8.png" width="60px" height="60px" alt="K"> <img
+                    src="assets/Title Font/Asset 9.png" width="60px" height="60px" alt="N"><img
+                    src="assets/Title Font/Asset 6.png" width="50px" height="50px" alt="O"><img
+                    src="assets/Title Font/Asset 11.png" width="60px" height="60px" alt="W">
+            </div>
         </div>
-        <div class="bubblesLeft">
-            <span id="bubble1"></span>
-            <span id="bubble2"></span>
-            <span id="bubble3"></span>
-            <span id="bubble4"></span>
+        <div>
+            <p id="level">Level: <span id="levelNumber"></span></p>
         </div>
-        <div class="bubblesRight">
-            <span id="bubble5"></span>
-            <span id="bubble6"></span>
-            <span id="bubble7"></span>
-            <span id="bubble8"></span>
-        </div>
-        <div id="score"></div>
-        <div></div>
+            <div class="rows">
+                <div data-color="aerospaceOrange" class="theCards aerospaceOrange color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="africanViolet" class="theCards africanViolet color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="fireEngineRed" class="theCards fireEngineRed color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="britishRacingGreen" class="theCards britishRacingGreen color-hidden" onclick="cardClicked(event)"></div>
+            </div>
+            <div class="rows">
+                <div data-color="azureBlue" class="theCards azureBlue color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="blue" class="theCards blue color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="aerospaceOrange" class="theCards aerospaceOrange color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="britishRacingGreen" class="theCards britishRacingGreen color-hidden" onclick="cardClicked(event)"></div>
+            </div>
+            <div class="rows">
+                <div data-color="africanViolet" class="theCards africanViolet color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="azureBlue" class="theCards azureBlue color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="fireEngineRed" class="theCards fireEngineRed color-hidden" onclick="cardClicked(event)"></div>
+                <div data-color="blue" class="theCards blue color-hidden" onclick="cardClicked(event)"></div>
+            </div>
+            <div>
+                <!-- <p id="Score">Score: <span class=totalScoreCount id="totalScore">0</span></p> -->
+                <p id="Lives">Lives: <span class=totalLivesCount id="totalLives">0</span></p>
+                <button onclick="Restart()">Restart</button>
+            </div>
     </main>
 </body>
 
