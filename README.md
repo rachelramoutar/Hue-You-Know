@@ -48,31 +48,37 @@ allow the users 9 attempts before they must start over. Happy Matching!
 
 ![Screenshot of the Hue You Know Completed Game example](./assets/Screenshots/Completed.png) 
 
-### Technologies Used
+## Technologies Used
  * Javascript, also known as ES6 or ECMAScript 2015
  * CSS3
  * HTML5
 
-### Getting Started
+## Getting Started
 Launch [Hue You Know](https://rachelramoutar.github.io/Hue-You-Know/) 
 
 > [!NOTE]
 > For added difficulty, the cards will disappear when they are incorrectly matched. 
 They are still selectable, you will just have to use a little more brain power! 
 
-### Next Steps (Future Features)
+## Next Steps (Future Features)
+
 * Adding Different Levels 
+
     - Hue You Know - Level 3 Example (Blue) 
     ![Screenshot of Hue You Know Level 3 - Blue](./assets/Screenshots/Blues.png)
+
     - Hue You Know - Level 4 Example (Red)
     ![Screenshot of Hue You Know Level 3 - Red](./assets/Screenshots/Reds.png.png)
+
     - Hue You Know - Level 5 Example (Grayscale)
     ![Screenshot of Hue You Know Level 3 - Grayscale](./assets/Screenshots/GrayScale.png.png)
+
 * Adding a Splash Screen 
+
 * Adding a Bubble effect with an event listener that changes the color of the bubbles once 
 two cards are matched. 
 
- ### Sources
+ ## Sources
  1. https://www.w3schools.com/jsref/prop_node_textcontent.asp
  2. https://www.youtube.com/watch?v=bbb9dZotsOc 
  3. https://coolors.co/colors
