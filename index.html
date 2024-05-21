@@ -30,7 +30,7 @@
             </div>
         </div>
         <div>
-            <p id="level">Level: <span id="levelNumber"></span></p>
+            <p id="level">Level: <span id="levelNumber">1</span></p>
         </div>
             <div class="rows">
                 <div data-color="aerospaceOrange" class="theCards aerospaceOrange color-hidden" onclick="cardClicked(event)"></div>
@@ -50,10 +50,10 @@
                 <div data-color="fireEngineRed" class="theCards fireEngineRed color-hidden" onclick="cardClicked(event)"></div>
                 <div data-color="blue" class="theCards blue color-hidden" onclick="cardClicked(event)"></div>
             </div>
-            <div>
+            <div id="metrics">
                 <!-- <p id="Score">Score: <span class=totalScoreCount id="totalScore">0</span></p> -->
                 <p id="Lives">Lives: <span class=totalLivesCount id="totalLives">0</span></p>
-                <button onclick="Restart()">Restart</button>
+                <button id="restart" onclick="Restart()">Restart</button>
             </div>
     </main>
 </body>

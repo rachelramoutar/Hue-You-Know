@@ -124,9 +124,9 @@ body {
     color: white;
 }
 
-button {
-    display: flex;
+#metrics{
     justify-content: center;
+    text-align: center;
 }
 
 
