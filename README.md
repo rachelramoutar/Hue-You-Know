@@ -73,7 +73,7 @@ They are still selectable, you will just have to use a little more brain power!
     ![Screenshot of Hue You Know Level 3 - Red](./assets/Screenshots/Reds.png)
 
     - Hue You Know - Level 5 Example (Grayscale)
-    
+
     ![Screenshot of Hue You Know Level 3 - Grayscale](./assets/Screenshots/GrayScale.png)
 
 * Adding a Splash Screen 
@@ -87,4 +87,6 @@ two cards are matched.
  3. https://coolors.co/colors
  4. https://www.freecodecamp.org/news/generate-colors-in-javascript/
  5. https://telehealth.keckmedicine.org/blog/can-brain-games-improve-your-memory#:~:text=While%20some%20brain%20games%20claim,maintain%20or%20improve%20brain%20health
- 6. Jason, the self-taught Software Engineer I met at Ash Coffee in Virginia Highlands, Atlanta, GA. 
+ 6. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset
+ 7. https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button 
+ 8. Jason, the self-taught Software Engineer I met at Ash Coffee in Virginia Highlands, Atlanta, GA. 

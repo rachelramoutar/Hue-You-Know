@@ -9,6 +9,11 @@ let score;
 let clickedCard = null;
 let stopClick = false;
 
+document.querySelector('.restart').addEventListener('click', function(){
+  window.location.reload(); 
+  return false; 
+})
+
 totalLivesCount.textContent = totalLives;
 
 function cardClicked(e) {
