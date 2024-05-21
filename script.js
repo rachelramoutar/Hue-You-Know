@@ -68,7 +68,9 @@ function matchedTotal() {
 
 function gameOver(){
   totalLives--;
-
+  if (totalLives = 0 ){ 
+    Lose = true 
+  }
 }
 
 
