@@ -9,12 +9,10 @@ let score;
 let clickedCard = null;
 let stopClick = false;
 
-
 totalLivesCount.textContent = totalLives;
 
 function cardClicked(e) {
   const target = e.currentTarget;
-  // console.log(target.getAttribute("data-color"));
   if ( stopClick || target === clickedCard || target.className.includes("done")) {
     return;
   }
@@ -47,18 +45,6 @@ function cardClicked(e) {
 // }
 
 
-function newLevel(){
-
-}
-
-function newGame(){
-  level=0; 
-  lives= 9; 
-  score = 0; 
-  newLevel(); 
-}
-
-
 function matchedTotal() {
   matchesMade++;
   if (matchesMade === 8){
@@ -72,8 +58,3 @@ function gameOver(){
     Lose = true 
   }
 }
-
-
-// function flipCard(){
-//   theCards.classList.toggle("flipCard"); 
-// }

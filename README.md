@@ -3,8 +3,7 @@
 ### About
 Hue You know is a concentration match game. Concentration games test your memory as they're a
 visual brain teaser. For further reading on memory games and its effect on brain health, 
-read this [blogpost](https://telehealth.keckmedicine.org/blogcan-brain-games-improve-your-memory#:~:text=While%20some%20brain%20games%20claim maintain%20or%20improve%20brain%20health)
-from Keck Medicine. 
+please see the blogpost from Keck Medicine listed in the Sources Section. 
     
 Typically, in concentration games, an even amount of cards are placed face down in a series 
 of rows and columns. The user then flips two cards at a time in an attempt to match the first
@@ -54,14 +53,29 @@ allow the users 9 attempts before they must start over. Happy Matching!
  * CSS3
  * HTML5
 
-
 ### Getting Started
 Launch [Hue You Know](https://rachelramoutar.github.io/Hue-You-Know/) 
+
+> [!NOTE]
+> For added difficulty, the cards will disappear when they are incorrectly matched. 
+They are still selectable, you will just have to use a little more brain power! 
+
+### Next Steps (Future Features)
+* Adding Different Levels 
+    - Hue You Know - Level 3 Example (Blue) 
+    ![Screenshot of Hue You Know Level 3 - Blue](./assets/Screenshots/Blues.png)
+    - Hue You Know - Level 4 Example (Red)
+    ![Screenshot of Hue You Know Level 3 - Red](./assets/Screenshots/Reds.png.png)
+    - Hue You Know - Level 5 Example (Grayscale)
+    ![Screenshot of Hue You Know Level 3 - Grayscale](./assets/Screenshots/GrayScale.png.png)
+* Adding a Splash Screen 
+* Adding a Bubble effect with an event listener that changes the color of the bubbles once 
+two cards are matched. 
 
  ### Sources
  1. https://www.w3schools.com/jsref/prop_node_textcontent.asp
  2. https://www.youtube.com/watch?v=bbb9dZotsOc 
  3. https://coolors.co/colors
  4. https://www.freecodecamp.org/news/generate-colors-in-javascript/
-
- 5. Jason, the self-taught Software Engineer I met at Ash Coffee in Virginia Highlands, Atlanta, GA. 
+ 5. https://telehealth.keckmedicine.org/blog/can-brain-games-improve-your-memory#:~:text=While%20some%20brain%20games%20claim,maintain%20or%20improve%20brain%20health
+ 6. Jason, the self-taught Software Engineer I met at Ash Coffee in Virginia Highlands, Atlanta, GA. 
