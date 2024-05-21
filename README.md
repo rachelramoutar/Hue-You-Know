@@ -72,7 +72,7 @@ They are still selectable, you will just have to use a little more brain power!
 
     ![Screenshot of Hue You Know Level 3 - Red](./assets/Screenshots/Reds.png)
 
-    - Hue You Know - Level 5 Example (Grayscale)
+    - Hue You Know - Level 7 Example (Grayscale)
 
     ![Screenshot of Hue You Know Level 3 - Grayscale](./assets/Screenshots/GrayScale.png)
 
